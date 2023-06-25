@@ -29,7 +29,7 @@ public class Main {
             boolean passwordMatched = driverProfileService.checkPassword(nickname, password);
             if (!passwordMatched) {
                 System.out.println("Пароль верный - Доступ разрешен.");
-                System.out.println("\"BAMBARBIA DRIVER\" Приятной работы");
+                System.out.println("\"BAMBARBIA DRIVER\" Приятной  поездки");
                 break;
             } else {
                 System.out.println("Пароль или имя неверные - Попробуйте еще раз.");
